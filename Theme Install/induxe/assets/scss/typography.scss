@@ -1,0 +1,320 @@
+html {
+    box-sizing: border-box;
+}
+a {
+  @include transition(all 300ms linear 0ms);
+  color: #ff5e14;
+}
+a, a:hover, a:focus, a:before, a:after {
+  outline: none;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: $link_color_active;
+}
+.site {
+  overflow: hidden;
+}
+p {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+body {
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.867;
+  color: $body_color1;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-family: Poppins,sans-serif;
+  &.single-portfolio .wpb_text_column {
+    font-size: 15px;
+    line-height: 2.13;
+  }
+  &.body-default-font {
+    @include font-family-default($body_default_font);
+  }
+  &.ovhidden {
+    overflow: hidden;
+  }
+}
+.site {
+  position: relative;
+}
+.fac-normal {
+  font-weight: 400;
+}
+.pxl-empty:empty {
+    display: none !important;
+}
+// Headings
+//--------------------------------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #262626;
+  clear: both;
+  line-height: 1.25;
+  margin: 0 0 15px;
+  letter-spacing: 0.03em;
+}
+.heading-default-font {
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    @include font-family-heading($heading_default_font);
+    letter-spacing: -0.03em;
+  }
+  h3.ct-heading-tag {
+    @media #{$min-lg} {
+      line-height: 1;
+    }
+  }
+  .error-404-content h2 {
+    line-height: 1;
+  }
+}
+h1, .h1 {
+  font-size: 48px;
+}
+
+h2, .h2 {
+  font-size: 35px;
+}
+
+h3, .h3 {
+  font-size: 22px;
+}
+
+h4, .h4 {
+  font-size: 20px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+// Unit Test
+//--------------------------------------------------
+
+table {
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
+    @include border-radius(0);
+    th {
+      color: $color_dark;
+    }
+}
+caption, td {
+    font-weight: normal;
+    text-align: left;
+}
+.table > tbody > tr > td, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > thead > tr > th {
+  padding: 13px 8px;
+}
+th {
+  font-weight: 700;
+}
+td {
+    border-top: 1px solid #ededed;
+    padding: 6px 10px 6px 0;
+}
+/*--- Definition Lists ---*/
+dl {
+    margin: 0 0 0 25px;
+}
+dl dt {
+    font-weight: normal;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+dl dd {
+    line-height: normal;
+    margin-bottom: 20px;
+    a {
+      color: #000;
+      &:hover {
+        color: $primary_color;
+      }
+    }
+}
+code, kbd {
+    background-color: transparent;
+    border-radius: 4px;
+    color: inherit;
+    font-size: 100%;
+    padding: 2px 4px;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+}
+ins {
+    color: #fff;
+    border: none;
+    padding: 2px;
+    text-decoration: none;
+    background-color: $primary_color;
+}
+pre {
+    margin: 0 0 30px;
+    padding: 20px;
+    color: #ddd;
+    background-color: #222;
+    white-space: pre;
+    text-shadow: 0 1px 0 #000;
+    border-radius: 5px;
+    border-bottom: 1px solid #555;
+    box-shadow: 0 1px 5px rgba(0,0,0,.4) inset, 0 0 20px rgba(0,0,0,10.2) inset;
+}
+ol {
+  list-style: outside none decimal;
+}
+ul {
+  padding-left: 0;
+  margin: 0 0 15px;
+  li {
+    list-style-position: inside;
+    color: $secondary_color;
+  }
+}
+blockquote {
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 30px;
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+  color: $secondary_color;
+  clear: both;
+  border-left: 4px solid $primary_color;
+  background-color: rgba($body_color1, 0.09);
+  padding: 16px 20px 16px 80px;
+  @include font-family-heading($heading_default_font);
+  @media #{$max-sm} {
+
+  }
+  p {
+    margin-bottom: 0 !important;
+    font-size: inherit;
+  }
+  cite {
+    font-style: normal;
+    display: block;
+    font-size: inherit;
+    margin-top: 18px;
+    color: $body_color1;
+  }
+  &:before {
+    content: '\f10d';
+    font-family: "FontAwesome";
+    color: $primary_color;
+    font-size: 35px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-style: normal;
+  }
+  .icon-qoute-last {
+    
+  }
+}
+.dlab-divider {
+  height: 1px;
+  width: 100%;
+  margin: 30px 0;
+  background-color: #d3d3d3;
+}
+.single-hentry li > ul, 
+.single-hentry li > ol {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+dl + h2 + ul {
+  padding-left: 35px;
+  ul {
+    padding-left: 35px;
+    li {
+      list-style: outside;
+    }
+  }
+}
+.post-password-form {
+  label {
+    display: block;
+    max-width: 60%;
+  }
+  input {
+    margin: 10px 0;
+  }
+}
+@media #{$max-sm} {
+  .post-password-form label {
+    max-width: 60%;
+  }
+}
+#tslOverlay {
+  background-color: transparent !important;
+}
+@font-face {
+  font-family: 'Gilroy Light';
+  src: url('../fonts/main/gilroy-light-webfont.woff2') format('woff2'),
+       url('../fonts/main/gilroy-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url('../fonts/main/gilroy-bold-webfont.woff2') format('woff2'),
+       url('../fonts/main/gilroy-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.ft-gilroy-l {
+  font-family: 'Gilroy Light';
+}
+.ft-gilroy {
+  font-family: 'Gilroy Bold';
+}
+.wp-image-space {
+  margin-bottom: 23px;
+  padding-top: 53px;
+}
+.fac.icon-fal {
+  font-weight: 300;
+}
+.fac.icon-far {
+  font-weight: 400;
+}
+.fac.icon-fab {
+  font-family: "Font Awesome 5 Brands";
+}
