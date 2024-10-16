@@ -1,0 +1,107 @@
+-----------------------------------------------------------------------------------------
+Version 2.5 - January 09, 2024
+-----------------------------------------------------------------------------------------
+
+- NEW: WordPress 6.4.x Compatibility
++ UPDATE: CT Core plugin - v1.0.9
++ UPDATE: Slider Revolution plugin - v6.6.20
++ UPDATE: WPBakery Page Builder plugin - v7.3
++ Full Compatibility with Redux Framework 4.4.x
+- Full Compatibility with WooCommerce 8.4.x
+
+
+-----------------------------------------------------------------------------------------
+Version 2.4 - January 12, 2023
+-----------------------------------------------------------------------------------------
+
+- NEW: WordPress 6.1.x Compatibility
++ UPDATE: WPBakery Page Builder plugin - v6.10.0
++ UPDATE: Slider Revolution plugin - v6.6.8
++ Full Compatibility with Redux Framework 4.3.21
+- Full Compatibility with WooCommerce 7.2.3
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 2.3 - July 26, 2022
+-----------------------------------------------------------------------------------------
+
+- NEW: WordPress 6.0.x Compatibility
++ UPDATE: WPBakery Page Builder plugin - v6.9.0
++ UPDATE: Slider Revolution plugin - v6.5.25
++ Full Compatibility with Redux Framework 4.3.x
+- Full Compatibility with WooCommerce 6.7.x
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 2.2 - January 26, 2022
+-----------------------------------------------------------------------------------------
+
+- NEW: WordPress 5.9 Compatibility
++ UPDATE: WPBakery Page Builder plugin - v6.8
++ UPDATE: Slider Revolution plugin - v6.5.9
+- Full Compatibility with WooCommerce 6.1.x
++ FIXED: Bugs
+
+
+
+-----------------------------------------------------------------------------------------
+Version 2.1 - October 16, 2021
+-----------------------------------------------------------------------------------------
+
+- NEW: WordPress 5.8 Compatibility
++ UPDATE: WPBakery Page Builder plugin - v6.7.0
++ UPDATE: Slider Revolution plugin - v6.5.9
+- Full Compatibility with WooCommerce 5.5.2
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.5 - November 25, 2020
+-----------------------------------------------------------------------------------------
+
++ UPDATE: WPBakery Page Builder plugin - v.6.4.2
++ UPDATE: Slider Revolution plugin - v.6.2.23
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.4 - February 24, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Home Plastic Industry
++ ADDED: New Header
++ ADDED: New Element
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.3 - February 04, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Home Food Industry
++ ADDED: New Header
++ ADDED: New Element
++ UPDATE: Slider Revolution plugin - v.6.1.8
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.2 - January 18, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Home Beer Industry
++ ADDED: New Header
++ ADDED: New Element
+
+-----------------------------------------------------------------------------------------
+Version 1.0.1 - January 01, 2020
+-----------------------------------------------------------------------------------------
+
++ UPDATE: WPBakery Page Builder plugin - v.6.1
++ RTL Support
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.0 - November 18, 2020
+-----------------------------------------------------------------------------------------
+
+- Initial release

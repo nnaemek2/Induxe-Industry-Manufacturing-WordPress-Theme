@@ -1,0 +1,87 @@
+// Page Title
+//--------------------------------------------------
+#pagetitle {
+  padding: 90px 0;
+  background-color: $primary_color;
+  background-image: url(../images/page-title.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  &:before {
+    background-color: #000;
+    opacity: 0.5;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+  @media #{$max-md} {
+    padding: 80px 0;
+  }
+  .container {
+    position: relative;
+    z-index: 99;
+    margin: auto;
+    .page-title-inner {
+      padding-left: 100px;
+      padding-right: 100px;
+      text-align: center;
+      @media #{$max-sm} {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+  h1.page-title {
+    letter-spacing: 0.01em;
+    margin-bottom: 15px;
+    padding-left: 2px;
+    color: #fff;
+    @media #{ $min-lg } {
+      line-height: 50px;  
+      font-size: 40px;
+    }
+    @media #{$max-md} {
+      font-size: 38px;
+    }
+    @media #{$max-sm} {
+      font-size: 25px;
+    }
+  }
+  .page-subtitle {
+    color: #fff;
+  }
+  .ct-breadcrumb {
+    margin: 13px 0 0;
+    list-style: none;
+    li {
+      color: #fff;
+      display: inline-block;
+      margin-right: 11px;
+      font-size: 15px;
+      letter-spacing: -0.03em;
+      &:before {
+        content: "|";
+        margin-right: 13px;
+        color: #fff;
+      }
+      a {
+        color: #fff;
+        &:hover {
+          color: inherit;
+        }
+      }
+      &:first-child:before {
+        display: none;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+}
